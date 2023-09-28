@@ -14,11 +14,8 @@ Este projeto tem como objetivo criar uma infraestrutura básica para coletar, ar
 
 
 ### Requirements
-
+```sh
 $ python3 -m pip install — user virtualenv
 $ virtualenv -p python3 venv
 $ source venv/bin/activate
 $ pip install 'apache-beam[gcp]'
-
-
-

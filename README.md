@@ -30,3 +30,11 @@ python data-ingestion.py \
 --region=us-east1
 ```
 
+<ul>
+  <li><b><i>Read from a File:</i></b> o pipeline inicia usando os argumentos fornecidos, que incluem informações como o ID do projeto, o local dos dados (bucket no Google Storage) e a localização para o armazenamento dos arquivos temporários do Dataflow.</li>
+  <li><b><i>Write to BigQuery:</i></b> após a leitura dos dados armazenados no Google Storage, este estágio transforma uma linha de arquivo CSV para um objeto de dicionário consumível pelo BigQuery. Além disso esta etapa realiza o tratamento do dataset
+  Substitui todas as aspas duplas (") por uma string vazia
+  Substitui todas as ocorrências da sequência de escape \r\n por uma string vazia
+  divide a string em uma lista de valores com base nas vírgulas como separadores, após a remoção das aspas duplas e das quebras de linha. </li>
+  <li><b><i>Write to BigQuery:</i></b> cria uma tabela no BigQuery se ela ainda não existir ou exclui todos os dados se ela já existir antes de gravar os dados já tratados.</li>
+</ul>

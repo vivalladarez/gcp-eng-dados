@@ -3,7 +3,7 @@
 
 ## Overview
 
-Welcome to project! 
+Welcome to project!!!
 
 Este projeto tem como objetivo criar uma infraestrutura básica para coletar, armazenar e processar dados de forma escalável, utilizando serviços como o Google Cloud Storage, BigQuery e Dataflow.  Todo os procedimentos realizados estão detalhados no arquivo .pdf 
 

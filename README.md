@@ -1,11 +1,11 @@
-# MVP - Engenharia de Dados
+# MVP Engenharia de Dados @ PUC-Rio
 
 
 ## Overview
 
 Welcome to project! 🚀🎲
 
-Este projeto tem como objetivo criar uma infraestrutura básica no GCP para coletar, armazenar e processar dados de forma escalável, utilizando serviços como o Google Cloud Storage, BigQuery, Dataflow e Looker Studio. Todos os procedimentos realizados estão detalhados no arquivo <b><i>gcp-mvp-report.pdf</i></b>
+Este projeto aborda o desenvolvimento de uma infraestrutura básica no Google Cloud Platform para coletar, armazenar e processar dados de forma escalável, utilizando serviços como o Cloud Storage, BigQuery, Dataflow e Looker Studio. Todos os procedimentos realizados estão detalhados no arquivo <b><i>gcp-mvp-report.pdf</i></b>.
 
 <img src="gcp-pipeline-schematic.png">
 
@@ -17,7 +17,7 @@ escrevendo-os no BigQuery
 
 ## Cloud CLI
 
-Configuração do ambiente virtual: a fim de não haver conflitos com versões específicas de pacotes cria-se um ambiente virtual e nele instala-se o apache-beam[gcp]:
+Para a execução do pipeline de dados ```data-ingestion.py``` no Cloud CLI, é necessário configurar o ambiente virtual. A fim de evitar conflitos com versões específicas de pacotes, cria-se um ambiente virtual e, nele, instala-se o apache-beam[gcp].
 
 ### Requirements
 ```sh
@@ -27,7 +27,7 @@ source venv/bin/activate
 pip install 'apache-beam[gcp]'
 ```
 
-###  Pipeline e Job Dataflow
+###  Execução do Pipeline | Job Dataflow
 ```sh
 python data-ingestion.py \
 --project=mvp-puc-399408 \

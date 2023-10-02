@@ -38,3 +38,8 @@ python data-ingestion.py \
   divide a string em uma lista de valores com base nas vírgulas como separadores, após a remoção das aspas duplas e das quebras de linha. </li>
   <li><b><i>Write to BigQuery:</i></b> cria uma tabela no BigQuery se ela ainda não existir ou exclui todos os dados se ela já existir antes de gravar os dados já tratados.</li>
 </ul>
+
+## Informações da autora
+<li>Nome: Maria Vitória Barbosa Valladares</li>
+<li>E-mail: vitoria_valladares@hotmail.com</li>
+<li>Linkedin: www.linkedin.com/in/vivalladares</li>

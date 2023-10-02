@@ -3,11 +3,11 @@
 
 ## Overview
 
-Welcome to project!!!
+Welcome to project! 🚀🎲
 
-Este projeto tem como objetivo criar uma infraestrutura básica para coletar, armazenar e processar dados de forma escalável, utilizando serviços como o Google Cloud Storage, BigQuery e Dataflow.  Todo os procedimentos realizados estão detalhados no arquivo .pdf 
+Este projeto tem como objetivo criar uma infraestrutura básica para coletar, armazenar e processar dados de forma escalável, utilizando serviços como o Google Cloud Storage, BigQuery e Dataflow.  Todo os procedimentos realizados estão detalhados no arquivo <b><i>gcp-mvp-report.pdf</i></b>
 
-## Cloud Services
+## Cloud CLI
 
 Configuração do ambiente virtual: a fim de não haver conflitos com versões específicas de pacotes cria-se um ambiente virtual e nele instala-se o apache-beam[gcp]:
 

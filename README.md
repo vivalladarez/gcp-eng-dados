@@ -5,7 +5,15 @@
 
 Welcome to project! 🚀🎲
 
-Este projeto tem como objetivo criar uma infraestrutura básica para coletar, armazenar e processar dados de forma escalável, utilizando serviços como o Google Cloud Storage, BigQuery e Dataflow.  Todo os procedimentos realizados estão detalhados no arquivo <b><i>gcp-mvp-report.pdf</i></b>
+Este projeto tem como objetivo criar uma infraestrutura básica no GCP para coletar, armazenar e processar dados de forma escalável, utilizando serviços como o Google Cloud Storage, BigQuery e Dataflow.  Todo os procedimentos realizados estão detalhados no arquivo <b><i>gcp-mvp-report.pdf</i></b>
+
+<img src="gcp-pipeline-schematic.png">
+
+<b>1.</b> Criação e armazenamento de arquivos .csv em um bucket do Cloud Storage  
+<b>2.</b> Orquestração de pipelines de dados, lendo os arquivos no Storage, tratando-os e
+escrevendo-os no BigQuery  
+<b>3.</b> Armazenamento dos dados tratados e padronizados, data warehouse do GCP  
+<b>4.</b> Consumo final dos dados, ambiente BI conectado ao BigQuery  
 
 ## Cloud CLI
 

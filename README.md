@@ -1,6 +1,3 @@
-# MVP Engenharia de Dados @ PUC-Rio
-
-
 ## Overview
 
 Welcome to project! 🚀🎲
